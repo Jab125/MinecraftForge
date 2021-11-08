@@ -773,6 +773,12 @@ project(':forge') {
             java {
                 srcDirs = [
                     "$rootDir/src/main/java",
+                    "$rootDir/src/main/fabricjava",
+                    "$rootDir/src/main/tinyMappingsJava",
+                    "$rootDir/src/main/fabricLegacyJava",
+                    "$rootDir/src/main/accessWidenerJava",
+                    "$rootDir/src/main/fabricMinecraftJava",
+                    "$rootDir/src/main/fabricMinecraftLegacyJava",
                     "$rootDir/src/fmlcommon/java"
                 ]
             }
